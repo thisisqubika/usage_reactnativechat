@@ -38,7 +38,7 @@
     "react-native-svg": "^14.1.0",
     "react-native-uuid": "^2.0.1",
     "victory-native": "^36.7.0",
-    "react-native-chat-sdk": "https://github.com/thisisqubika/reactnativechat.git#feature/module_sdk"
+    "react-native-chat-sdk": "git@github.com:thisisqubika/reactnativechat.git#feature/module_sdk"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

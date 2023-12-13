@@ -6723,9 +6723,10 @@ react-is@^17.0.1:
   resolved "https://registry.npmjs.org/react-is/-/react-is-17.0.2.tgz"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
-"react-native-chat-sdk@https://github.com/thisisqubika/reactnativechat.git#feature/module_sdk":
-  version "0.0.0"
-  resolved "https://github.com/thisisqubika/reactnativechat.git#138cd071245bed2b6bf0b7f50e7fe74a5e71451f"
+"react-native-chat-sdk@git@github.com:thisisqubika/reactnativechat.git#feature/module_sdk":
+  version "1.3.0-beta.1"
+  resolved "https://registry.yarnpkg.com/react-native-chat-sdk/-/react-native-chat-sdk-1.3.0-beta.1.tgz#8c10061433156d20a245a64b486f28d4844c1de5"
+  integrity sha512-KBOrwNA6P8JlFdb4B+kVqxBVlSjjgitZU2953zmOx28B2OFv7plkYEAShtXC73TeuenIq8CN3AmcxKiwc/rIiQ==
 
 react-native-communications@2.2.1:
   version "2.2.1"
