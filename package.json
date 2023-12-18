@@ -24,7 +24,6 @@
     "install": "^0.13.0",
     "react": "18.2.0",
     "react-native": "0.73.0",
-    "react-native-chat-sdk": "git@github.com:thisisqubika/reactnativechat.git#feature/module_sdk",
     "react-native-config": "^1.5.1",
     "react-native-flipper": "^0.212.0",
     "react-native-gesture-handler": "^2.14.0",
@@ -38,6 +37,7 @@
     "react-native-screens": "^3.29.0",
     "react-native-svg": "^14.1.0",
     "react-native-uuid": "^2.0.1",
+    "reactnativechat": "https://github.com/thisisqubika/reactnativechat.git",
     "victory-native": "^36.7.0"
   },
   "devDependencies": {

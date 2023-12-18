@@ -1,7 +1,13 @@
 import {useSessionContext} from '../../../../features/session/SessionContext';
-// import {ChatThread, createThread, getThread} from '@infrastructure/chatHooks';
-// import {ThreadRole, hasPermission} from '@infrastructure/chatHooks/threadRole';
-// import {addChatToUser, useUserChats} from '@infrastructure/chatHooks/user';
+import {
+  ChatThread,
+  createThread,
+  getThread,
+  ThreadRole,
+  hasPermission,
+  addChatToUser,
+  useUserChats,
+} from 'reactnativechat/RNChat/src/index';
 import React, {useCallback, useState} from 'react';
 import {
   FlatList,
