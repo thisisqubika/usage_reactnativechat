@@ -1,4 +1,4 @@
-import {useSessionContext} from '@features/session/SessionContext';
+import {useSessionContext} from '../../features/session/SessionContext';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import React from 'react';
 import {Chat} from './screens/Chat/Chat';
@@ -9,17 +9,17 @@ import {RootStackParamList} from './types';
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
 export const MainStack = () => {
-	const {userId} = useSessionContext();
-	return (
-		<Stack.Navigator>
-			{userId ? (
-				<>
-					<Stack.Screen name="ChatsList" component={ChatsList} />
-					<Stack.Screen name="Chat" component={Chat} />
-				</>
-			) : (
-				<Stack.Screen name="Home" component={Home} />
-			)}
-		</Stack.Navigator>
-	);
+  const {userId} = useSessionContext();
+  return (
+    <Stack.Navigator>
+      {userId ? (
+        <>
+          <Stack.Screen name="ChatsList" component={ChatsList} />
+          <Stack.Screen name="Chat" component={Chat} />
+        </>
+      ) : (
+        <Stack.Screen name="Home" component={Home} />
+      )}
+    </Stack.Navigator>
+  );
 };

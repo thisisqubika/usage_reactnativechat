@@ -1,29 +1,29 @@
 import {NativeStackScreenProps} from '@react-navigation/native-stack';
-import {ChatThread} from 'src/infrastructure/chatHooks';
+import {ChatThread} from 'react-native-chat-sdk/methods/chatHooks/getThreadData';
 
 export type RootStackParamList = {
-	Home: undefined;
-	ChatsList: undefined;
-	Chat: ChatThread;
+  Home: undefined;
+  ChatsList: undefined;
+  Chat: ChatThread;
 };
 
 export type HomeScreenProps = NativeStackScreenProps<
-	RootStackParamList,
-	'Home'
+  RootStackParamList,
+  'Home'
 >;
 
 export type ChatsListScreenProps = NativeStackScreenProps<
-	RootStackParamList,
-	'ChatsList'
+  RootStackParamList,
+  'ChatsList'
 >;
 
 export type ChatScreenProps = NativeStackScreenProps<
-	RootStackParamList,
-	'Chat'
+  RootStackParamList,
+  'Chat'
 >;
 
 declare global {
-	namespace ReactNavigation {
-		interface RootParamList extends RootStackParamList {}
-	}
+  namespace ReactNavigation {
+    interface RootParamList extends RootStackParamList {}
+  }
 }
