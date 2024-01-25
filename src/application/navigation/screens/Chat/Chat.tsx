@@ -30,7 +30,7 @@ export const Chat = ({route}: ChatScreenProps) => {
   useReadMessages({chatId, userId: `${userId}`});
 
   const {messages, GetMessages, showLoading, isLoadEarlier} =
-    useChatDataPaginated(chatId);
+    useChatDataPaginated(chatId, userId || '');
 
   const onSend = useSendMessage({
     chatId,
